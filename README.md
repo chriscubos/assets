@@ -1,4 +1,4 @@
-# laravel-assets
+# laravel-assets [branch 5.3 for Laravel 5.3 installation ]
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
