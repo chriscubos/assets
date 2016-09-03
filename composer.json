@@ -24,7 +24,7 @@
     ],
     "require": {
         "php" : "~5.4|~7.0",
-        "chrirscubos/jspack" : "1.0.*",
+        "chrirscubos/jspack" : "1.0.0",
         "chrirscubos/packager" : "1.0.0"
     },
     "require-dev": {
