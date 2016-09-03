@@ -19,12 +19,44 @@ Via Composer
 $ composer require chriscubos/assets
 ```
 
+### config/app.php
+``` php
+<?php
+return [
+    'providers' => [
+        Chriscubos\Assets\AssetsServiceProvider::class,
+    ],
+]
+?>
+```
+
+### install configuration
+``` bash
+php artisan vendor:publish
+```
+
+### Optional Tasks
+``` bash
+$ composer dump-autoload
+```
+
 ## Usage
 
 ``` php
-$skeleton = new League\Skeleton();
-echo $skeleton->echoPhrase('Hello, League!');
+// organize collection sets
+<?=Assets::collection(['jquery', 'bootstrap', 'style.css']);?>
+
+// grouped packages for your fun
+<?=Assets::packages(['colorpicker', 'bootstrap-slider'])?>
+
+// takes assets from the theme folder auto switch with my theme package
+<?=Assets::theme(['style.css','_all-skins.min.css'])?>
+
 ```
+
+## Configuration
+
+
 
 ## Change log
 
